@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Long running function</title>
+  <!-- <script src="worker.js"></script> -->
+  <script src="main.js"></script>
+  <script src="worker.js"></script>
+</head>
+<body>
+  <div id="app">
+	<button onclick="func()">Long running function</button>
+	<button onclick="funcWithTimeout()">Long running function with setTimeout</button>
+	<button onclick="funcWithWorker()">Long running function with worker</button>
+  </div>
+</body>
+</html>
